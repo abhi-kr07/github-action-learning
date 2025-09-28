@@ -1,11 +1,10 @@
 ---
-# Github hosted runner
+## Github hosted runner
 
 name: Github-Action-Learning
 on:
   push:
-    branches:
-      - main
+    branches: [ "main" ]
 jobs:
   build:
     runs-on: ubuntu-latest
